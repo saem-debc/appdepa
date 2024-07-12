@@ -16,7 +16,7 @@ set :keep_releases, 5
 set :passenger_restart_with_touch, true
 set :branch, "main"
 
-#set :ssh_options, {verify_host_key: :never}
+set :ssh_options, {verify_host_key: :never}
 
 
 # Default branch is :master
